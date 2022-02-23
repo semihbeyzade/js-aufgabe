@@ -1,0 +1,29 @@
+{
+  "name": "pb-functions-14-02-22-mini-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "preinstall": "npm_config_yes=true npx github:DCI-EdTech/autograding-setup --no"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D04-1/pb-functions-14-02-22-mini-projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D04-1/pb-functions-14-02-22-mini-projects/issues"
+  },
+  "homepage": "https://github.com/D04-1/pb-functions-14-02-22-mini-projects#readme",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "@types/jest": "^27.4.0"
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
